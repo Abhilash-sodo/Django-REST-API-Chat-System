@@ -57,5 +57,22 @@ Authorization: <token-from-login>
 GET http://localhost:8000/api/balance/
 Authorization: <token-from-login>
 
+# Bonus API POINTS
+
+# 1.Get All Users
+GET http://127.0.0.1:8000/api/users/
+
+
+# 2.Get Specific User Details (requires authentication):
+GET http://127.0.0.1:8000/api/users/1/
+Headers:
+Authorization: <your-auth-token>
+
+
+# 3.Get User Chat History (requires authentication):
+GET http://127.0.0.1:8000/api/users/1/chats/
+Headers:
+Authorization: <your-auth-token>
+
 
 # Thank You 🙏
