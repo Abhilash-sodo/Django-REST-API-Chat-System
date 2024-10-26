@@ -1,0 +1,12 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+/*************  ✨ Codeium Command 🌟  *************/
+*.pyc
+__pycache__/
+*.db
+*.sqlite3
+.env
+venv/
+/venv/
+
+/******  d53434d7-4353-40e2-bdf8-ad1fd1975bb6  *******/
